@@ -1,5 +1,8 @@
 namespace singleton_scoped_transient
 {
+    /// <summary>
+    /// Constructer metodlara breakpoint konularak her istekte kaç kez ctor lara düþtüðü görülebilir.
+    /// </summary>
     public class SingletonService
     {
         public int Counter;
